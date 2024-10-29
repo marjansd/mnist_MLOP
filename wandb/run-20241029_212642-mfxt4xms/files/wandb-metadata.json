@@ -1,0 +1,32 @@
+{
+  "os":  "Linux-6.5.0-1025-azure-x86_64-with-glibc2.31",
+  "python":  "3.12.1",
+  "startedAt":  "2024-10-29T21:26:42.218582Z",
+  "program":  "/workspaces/mnist_MLOP/model.py",
+  "codePath":  "model.py",
+  "git":  {
+    "remote":  "https://github.com/marjansd/mnist_MLOP",
+    "commit":  "c2b000c4b4b179cf3b4ef5baefc1866422e32115"
+  },
+  "email":  "marjansd@iastate.edu",
+  "root":  "/workspaces/mnist_MLOP",
+  "host":  "codespaces-4a231a",
+  "username":  "codespace",
+  "executable":  "/home/codespace/.python/current/bin/python3",
+  "codePathLocal":  "model.py",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "disk":  {
+    "/":  {
+      "total":  "33636024320",
+      "used":  "19527196672"
+    }
+  },
+  "memory":  {
+    "total":  "8314736640"
+  },
+  "cpu":  {
+    "count":  1,
+    "countLogical":  2
+  }
+}

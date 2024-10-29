@@ -1,0 +1,10 @@
+Epoch 1/10, Loss: 0.4535, Accuracy: 93.25%, Precision: 0.93, Recall: 0.93
+Epoch 2/10, Loss: 0.3604, Accuracy: 93.07%, Precision: 0.93, Recall: 0.93
+Epoch 3/10, Loss: 0.3491, Accuracy: 94.24%, Precision: 0.94, Recall: 0.94
+Epoch 4/10, Loss: 0.3360, Accuracy: 94.18%, Precision: 0.94, Recall: 0.94
+Epoch 5/10, Loss: 0.3276, Accuracy: 93.95%, Precision: 0.94, Recall: 0.94
+Epoch 6/10, Loss: 0.3326, Accuracy: 93.77%, Precision: 0.94, Recall: 0.94
+Epoch 7/10, Loss: 0.3181, Accuracy: 94.31%, Precision: 0.94, Recall: 0.94
+Epoch 8/10, Loss: 0.3233, Accuracy: 94.68%, Precision: 0.95, Recall: 0.95
+Epoch 9/10, Loss: 0.2993, Accuracy: 94.95%, Precision: 0.95, Recall: 0.95
+Epoch 10/10, Loss: 0.3271, Accuracy: 94.32%, Precision: 0.94, Recall: 0.94

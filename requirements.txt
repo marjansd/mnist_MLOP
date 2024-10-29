@@ -1,0 +1,8 @@
+#Requirement for Duckerfile
+
+fastapi
+uvicorn
+torch
+torchvision
+nest_asyncio
+Pillow

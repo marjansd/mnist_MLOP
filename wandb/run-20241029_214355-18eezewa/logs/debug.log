@@ -1,0 +1,33 @@
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Configure stats pid to 20353
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Loading settings from /home/codespace/.config/wandb/settings
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Loading settings from /workspaces/mnist_MLOP/wandb/settings
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'Model_deploymenet_script.py', 'program_abspath': '/workspaces/mnist_MLOP/Model_deploymenet_script.py', 'program': '/workspaces/mnist_MLOP/Model_deploymenet_script.py'}
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-29 21:43:55,892 INFO    MainThread:20353 [wandb_init.py:_log_setup():534] Logging user logs to /workspaces/mnist_MLOP/wandb/run-20241029_214355-18eezewa/logs/debug.log
+2024-10-29 21:43:55,893 INFO    MainThread:20353 [wandb_init.py:_log_setup():535] Logging internal logs to /workspaces/mnist_MLOP/wandb/run-20241029_214355-18eezewa/logs/debug-internal.log
+2024-10-29 21:43:55,893 INFO    MainThread:20353 [wandb_init.py:init():621] calling init triggers
+2024-10-29 21:43:55,893 INFO    MainThread:20353 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'epochs': 10, 'batch_size': 64, 'hidden_layers': [128, 64], 'dropout_rate': 0.2}
+2024-10-29 21:43:55,893 INFO    MainThread:20353 [wandb_init.py:init():671] starting backend
+2024-10-29 21:43:55,893 INFO    MainThread:20353 [wandb_init.py:init():675] sending inform_init request
+2024-10-29 21:43:55,893 INFO    MainThread:20353 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-29 21:43:55,894 INFO    MainThread:20353 [wandb_init.py:init():688] backend started and connected
+2024-10-29 21:43:55,896 INFO    MainThread:20353 [wandb_init.py:init():783] updated telemetry
+2024-10-29 21:43:55,904 INFO    MainThread:20353 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-29 21:43:56,177 INFO    MainThread:20353 [wandb_init.py:init():867] starting run threads in backend
+2024-10-29 21:43:56,300 INFO    MainThread:20353 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-29 21:43:56,301 INFO    MainThread:20353 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-29 21:43:56,301 INFO    MainThread:20353 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-29 21:43:56,301 INFO    MainThread:20353 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-29 21:43:56,302 INFO    MainThread:20353 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-29 21:43:56,376 INFO    MainThread:20353 [wandb_watch.py:_watch():71] Watching
+2024-10-29 21:46:06,239 INFO    MainThread:20353 [wandb_run.py:_finish():2158] finishing run marjansd-iowa-state-university/mnist-mlops/18eezewa
+2024-10-29 21:46:06,239 INFO    MainThread:20353 [wandb_run.py:_atexit_cleanup():2426] got exitcode: 0
+2024-10-29 21:46:06,239 INFO    MainThread:20353 [wandb_run.py:_restore():2408] restore
+2024-10-29 21:46:06,240 INFO    MainThread:20353 [wandb_run.py:_restore():2414] restore done
+2024-10-29 21:46:08,763 INFO    MainThread:20353 [wandb_run.py:_footer_history_summary_info():3975] rendering history
+2024-10-29 21:46:08,764 INFO    MainThread:20353 [wandb_run.py:_footer_history_summary_info():4007] rendering summary
+2024-10-29 21:46:08,768 INFO    MainThread:20353 [wandb_run.py:_footer_sync_info():3934] logging synced files

@@ -1,0 +1,46 @@
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data/MNIST/raw/train-images-idx3-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/train-images-idx3-ubyte.gz to ./data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data/MNIST/raw/train-labels-idx1-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/train-labels-idx1-ubyte.gz to ./data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw/t10k-images-idx3-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/t10k-images-idx3-ubyte.gz to ./data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Failed to download (trying next):
+<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz
+100.0%
+Extracting ./data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ./data/MNIST/raw
+
+Epoch 1/10, Loss: 0.4445, Accuracy: 93.30%, Precision: 0.93, Recall: 0.93
+Epoch 2/10, Loss: 0.3651, Accuracy: 94.00%, Precision: 0.94, Recall: 0.94
+Epoch 3/10, Loss: 0.3453, Accuracy: 93.17%, Precision: 0.93, Recall: 0.93
+Epoch 4/10, Loss: 0.3295, Accuracy: 94.94%, Precision: 0.95, Recall: 0.95
+Epoch 5/10, Loss: 0.3190, Accuracy: 94.66%, Precision: 0.95, Recall: 0.95
+Epoch 6/10, Loss: 0.3099, Accuracy: 94.66%, Precision: 0.95, Recall: 0.95
+Epoch 7/10, Loss: 0.3206, Accuracy: 94.97%, Precision: 0.95, Recall: 0.95
+Epoch 8/10, Loss: 0.3095, Accuracy: 94.60%, Precision: 0.95, Recall: 0.95
+Epoch 9/10, Loss: 0.2986, Accuracy: 94.32%, Precision: 0.95, Recall: 0.94
+Epoch 10/10, Loss: 0.3002, Accuracy: 95.26%, Precision: 0.95, Recall: 0.95
