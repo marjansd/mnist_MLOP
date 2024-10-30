@@ -1,0 +1,60 @@
+Epoch 1/10, Loss: 0.4478, Accuracy: 91.78%, Precision: 0.93, Recall: 0.92
+Epoch 2/10, Loss: 0.3649, Accuracy: 94.80%, Precision: 0.95, Recall: 0.95
+Epoch 3/10, Loss: 0.3364, Accuracy: 94.14%, Precision: 0.94, Recall: 0.94
+Epoch 4/10, Loss: 0.3167, Accuracy: 94.67%, Precision: 0.95, Recall: 0.95
+Epoch 5/10, Loss: 0.3198, Accuracy: 94.64%, Precision: 0.95, Recall: 0.95
+Epoch 6/10, Loss: 0.3183, Accuracy: 94.85%, Precision: 0.95, Recall: 0.95
+Epoch 7/10, Loss: 0.3023, Accuracy: 94.28%, Precision: 0.94, Recall: 0.94
+Epoch 8/10, Loss: 0.3006, Accuracy: 94.66%, Precision: 0.95, Recall: 0.95
+Traceback (most recent call last):
+  File "app.py", line 7, in <module>
+    from model import LogisticRegression
+  File "/home/pc-15-5/Desktop/mlop/mnist_MLOP/mnist_MLOP/model.py", line 98, in <module>
+    for data, target in test_loader:
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/datasets/mnist.py", line 146, in __getitem__
+    img = self.transform(img)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 350, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "app.py", line 7, in <module>
+    from model import LogisticRegression
+  File "/home/pc-15-5/Desktop/mlop/mnist_MLOP/mnist_MLOP/model.py", line 98, in <module>
+    for data, target in test_loader:
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/datasets/mnist.py", line 146, in __getitem__
+    img = self.transform(img)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/home/pc-15-5/.local/lib/python3.8/site-packages/torchvision/transforms/functional.py", line 350, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+KeyboardInterrupt

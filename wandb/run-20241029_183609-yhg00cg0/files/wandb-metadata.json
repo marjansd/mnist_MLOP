@@ -1,0 +1,32 @@
+{
+  "os":  "Linux-5.15.0-122-generic-x86_64-with-glibc2.29",
+  "python":  "3.8.10",
+  "startedAt":  "2024-10-29T23:36:09.418546Z",
+  "program":  "model.py",
+  "codePath":  "model.py",
+  "git":  {
+    "remote":  "https://github.com/marjansd/mnist_MLOP.git",
+    "commit":  "93d29090b60f490ba1abd42b20d42abc5eb5f550"
+  },
+  "email":  "marjansd@iastate.edu",
+  "root":  "/home/pc-15-5/Desktop/mlop/mnist_MLOP/mnist_MLOP",
+  "host":  "pc155-Precision-T1700",
+  "username":  "pc-15-5",
+  "executable":  "/usr/bin/python3",
+  "codePathLocal":  "model.py",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "490577010688",
+      "used":  "141746016256"
+    }
+  },
+  "memory":  {
+    "total":  "25096318976"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

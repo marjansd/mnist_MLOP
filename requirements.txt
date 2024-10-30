@@ -6,3 +6,6 @@ torch
 torchvision
 nest_asyncio
 Pillow
+wandb
+scikit-learn
+python-multipart

@@ -1,0 +1,17 @@
+{"time":"2024-10-29T18:36:09.422201182-05:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-29T18:36:09.422218038-05:00","level":"INFO","msg":"created symlink","path":"/home/pc-15-5/Desktop/mlop/mnist_MLOP/mnist_MLOP/wandb/run-20241029_183609-yhg00cg0/logs/debug-core.log"}
+{"time":"2024-10-29T18:36:10.330901856-05:00","level":"INFO","msg":"created new stream","id":"yhg00cg0"}
+{"time":"2024-10-29T18:36:10.331256613-05:00","level":"INFO","msg":"stream: started","id":"yhg00cg0"}
+{"time":"2024-10-29T18:36:10.332276043-05:00","level":"INFO","msg":"sender: started","stream_id":"yhg00cg0"}
+{"time":"2024-10-29T18:36:10.332283972-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yhg00cg0"}}
+{"time":"2024-10-29T18:36:10.331592877-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"yhg00cg0"}}
+{"time":"2024-10-29T18:36:10.689452301-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-29T18:39:15.103552394-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-29T18:39:15.104417508-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-29T18:39:16.103022203-05:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.745416098}],"total_operations":1}}
+{"time":"2024-10-29T18:39:16.464440836-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-29T18:39:17.795745261-05:00","level":"INFO","msg":"stream: closing","id":"yhg00cg0"}
+{"time":"2024-10-29T18:39:17.795766288-05:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"yhg00cg0"}}
+{"time":"2024-10-29T18:39:17.795783431-05:00","level":"INFO","msg":"sender: closed","stream_id":"yhg00cg0"}
+{"time":"2024-10-29T18:39:17.795782462-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"yhg00cg0"}}
+{"time":"2024-10-29T18:39:17.795847003-05:00","level":"INFO","msg":"stream: closed","id":"yhg00cg0"}
