@@ -3,9 +3,9 @@
 This project demonstrates an end-to-end machine learning pipeline using the MNIST dataset, where a Logistic Regression model is built with PyTorch, served with FastAPI, and containerized with Docker. The training process is logged with Weights and Biases (wandb) for monitoring and analysis.
 
 ## Requirements 
-- Python 3.8+
-- Docker
-- Wandb account
+ Python 3.8+
+ Docker
+ Wandb account
 
 ## Instruction for running the code locally
 1.Clone the Repository:
@@ -24,8 +24,12 @@ This project demonstrates an end-to-end machine learning pipeline using the MNIS
     ```bash
     pip install -r requirements.txt
     ```
-4. Run model.py    :python3 model.py
-5. Run app.py      :python3 app.py
+4. Run model.py
+python3 model.py
+
+5. Run app.py
+python3 app.py
+
 6. Instruction for building and running the Docker container:
 
 6.1. Build the Docker Image:
